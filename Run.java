@@ -56,8 +56,8 @@ public class Run {
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------");
         switch (userInput) {
             case "Describe":
-                describe();
-                break;
+            describe();
+            break;
 
             default:
                 System.out.println("!ERROR!   Invalid input:   Try again!");
