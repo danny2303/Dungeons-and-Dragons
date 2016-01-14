@@ -82,7 +82,8 @@ public class Run {
         function.print("It is " + description);
     }
 
-    public static void Script() {
+    public static void script() {
+        roomName();
        menu();
         function.print("You are in " + location);
     }
