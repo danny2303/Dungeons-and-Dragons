@@ -10,6 +10,7 @@ class game {
 
     static Input input = new Input();
     static Function function = new Function();
+    static Run run = new Run();
     static boolean startedGame;
     static String[] mainMenuChoices;
 
@@ -82,15 +83,17 @@ class game {
                 function.playTutorial();
                 break;
 
+            case "New Game":
+                run.script();
+                break;
             default:
+                
                 System.out.println("!ERROR!   Invalid input:   Try again!");
                 String userInput2 = getUserInputPrompt("");
                 decipherUserInput(userInput2);
                 break;
         }
     }
-
-
 
     public String getUserInputPrompt(String prompt) {
         String userInput = input.getUserInput(prompt);
