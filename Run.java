@@ -28,7 +28,7 @@ public class Run {
         menuChoices[0][0] = "Describe";
         menuChoices[0][1] = "Pick";
         menuChoices[0][2] = "Move";
-        menuChoices[0][3] = "---";
+        menuChoices[0][3] = "Fight";
         menuChoices[0][4] = "---";
 
         return menuChoices;
@@ -67,6 +67,9 @@ public class Run {
                 describe();
                 break;
             case "move":
+                describe();
+                break;
+            case "fight":
                 describe();
                 break;
             default:
