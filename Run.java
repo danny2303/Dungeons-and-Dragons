@@ -21,7 +21,7 @@ public class Run {
         menuChoices = new String[1][5];
 
         menuChoices[0][0] = "Describe";
-        menuChoices[0][1] = "---";
+        menuChoices[0][1] = "Pick";
         menuChoices[0][2] = "---";
         menuChoices[0][3] = "---";
         menuChoices[0][4] = "---";
@@ -56,6 +56,9 @@ public class Run {
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------");
         switch (userInput) {
             case "Describe":
+                describe();
+                break;
+            case "Pick":
                 describe();
                 break;
 
