@@ -20,6 +20,9 @@ public class Run {
         String[][] menuChoices;
         menuChoices = new String[1][5];
 
+        System.out.println("These options are case sensitive and require you to remove capitals");
+        System.out.println("");
+        
         menuChoices[0][0] = "Describe";
         menuChoices[0][1] = "Pick";
         menuChoices[0][2] = "Move";
@@ -55,13 +58,13 @@ public class Run {
     public static void decipherUserInput(String userInput) {
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------");
         switch (userInput) {
-            case "Describe":
+            case "describe":
                 describe();
                 break;
-            case "Pick":
+            case "pick":
                 describe();
                 break;
-            case "Move":
+            case "move":
                 describe();
                 break;
             default:
