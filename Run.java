@@ -20,6 +20,8 @@ public class Run {
         String[][] menuChoices;
         menuChoices = new String[1][5];
 
+        System.out.println("Choose an action:");
+        System.out.println("");
         System.out.println("These options are case sensitive and require you to remove capitals");
         System.out.println("");
         
