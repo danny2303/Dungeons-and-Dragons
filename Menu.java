@@ -28,7 +28,6 @@ class game {
         menuChoices[0][3] = "Achievements";
         menuChoices[0][4] = "Help";
 
-        
         System.out.println("These options are case sensitive");
         System.out.println("");
 
