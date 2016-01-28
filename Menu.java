@@ -22,14 +22,14 @@ class game {
         String[][] menuChoices;
         menuChoices = new String[2][5];
 
+        System.out.println("These options are case sensitive");
+        System.out.println("");
+        
         menuChoices[0][0] = "Resume";
         menuChoices[0][1] = "New Game";
         menuChoices[0][2] = "Options";
         menuChoices[0][3] = "Achievements";
         menuChoices[0][4] = "Help";
-
-        System.out.println("These options are case sensitive");
-        System.out.println("");
 
         menuChoices[1][0] = "Tips?";
         menuChoices[1][1] = "Tutorial?";
