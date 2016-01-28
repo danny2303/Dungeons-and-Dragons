@@ -22,7 +22,7 @@ public class Run {
 
         menuChoices[0][0] = "Describe";
         menuChoices[0][1] = "Pick";
-        menuChoices[0][2] = "---";
+        menuChoices[0][2] = "Move";
         menuChoices[0][3] = "---";
         menuChoices[0][4] = "---";
 
@@ -61,7 +61,9 @@ public class Run {
             case "Pick":
                 describe();
                 break;
-
+            case "Move":
+                describe();
+                break;
             default:
                 System.out.println("!ERROR!   Invalid input:   Try again!");
                 String userInput2 = getUserInputPrompt("");
